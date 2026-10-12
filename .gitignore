@@ -1,0 +1,12 @@
+# Never commit cloud credentials
+local.settings.json
+.env
+.env.*
+!.env.example
+*.pfx
+*.pem
+*.key
+secrets.json
+bin/
+obj/
+.vscode/
